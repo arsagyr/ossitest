@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
-
+	"exer1/equations"
 	"exer1/polygons"
+	"fmt"
 )
 
 func PrintPerimeter(t polygons.Triangle) {
@@ -36,8 +36,9 @@ func chekRectangular(t polygons.Triangle) {
 
 }
 func main() {
-	t := inputTriangle()
-	PrintPerimeter(t)
-	PrintSquare(t)
-	chekRectangular(t)
+	// t := inputTriangle()
+	// PrintPerimeter(t)
+	// PrintSquare(t)
+	// chekRectangular(t)
+	equations.SquareEquation()
 }
