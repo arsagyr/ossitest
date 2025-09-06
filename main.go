@@ -1,9 +1,9 @@
 package main
 
 import (
-	"exer1/equations"
-	"exer1/polygons"
 	"fmt"
+	"ossitest/equations"
+	"ossitest/polygons"
 )
 
 func PrintPerimeter(t polygons.Triangle) {
